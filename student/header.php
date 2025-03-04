@@ -6,7 +6,16 @@ $menuItems = [
         "menuTitle" => "Dashboard",
         "icon" => "fas fa-tachometer-alt",
         "pages" => [
-            ["title" => "Home", "url" => "index.php"]
+            ["title" => "Home", "url" => "index.php"],
+        ],
+    ],
+    [
+        "menuTitle" => "Language Learning",
+        "icon" => "fas fa-language",
+        "pages" => [
+            ["title" => "My Languages", "url" => "languages.php"],
+            ["title" => "My Subjects", "url" => "subjects.php"],
+            ["title" => "My Dictionary", "url" => "dictionary.php"],
         ],
     ],
     [
